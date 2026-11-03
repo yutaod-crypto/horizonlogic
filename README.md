@@ -8,6 +8,8 @@ The site includes task search and filters, instructions and controller contracts
 
 ## Website
 
+[Open HorizonLogic](https://yutaod-crypto.github.io/horizonlogic/)
+
 Published with GitHub Pages from the `dist/` directory. The Pages deployment workflow runs on changes to `dist/` on `main`, and can also be started manually in the Actions tab.
 
 ## Local preview

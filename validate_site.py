@@ -36,7 +36,7 @@ for asset in p.assets:
  if not asset.startswith(('https:','data:')):assert (D/asset).exists(),asset
 for f in D.glob('*'):
  if f.suffix in ['.html','.css','.js','.json']:
-  text=f.read_text();assert '/home/yutao-deng/' not in text,str(f)
+  text=f.read_text();assert not re.search(r'/(?:home|Users)/[^/]+/',text),str(f)
 assert not any(f.is_symlink() for f in D.rglob('*'))
 report={'passed':True,'tasks':40,'categories':5,'single_arm_tasks':20,'dual_arm_tasks':20,'canonical_single_arm_episodes':1000,'published_episodes':416,'dual_arm_drive_review_links':100,'verified_task_drive_links':37,'preview_videos':20,'static_assets_and_anchors_passed':True,'portable_relative_paths_passed':True,'total_static_bytes':sum(f.stat().st_size for f in D.rglob('*') if f.is_file())}
 print(json.dumps(report,indent=2))
