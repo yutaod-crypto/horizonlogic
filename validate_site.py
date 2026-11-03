@@ -2,6 +2,7 @@ from pathlib import Path
 from html.parser import HTMLParser
 from collections import Counter
 import json,re
+from urllib.parse import urlsplit
 ROOT=Path(__file__).parent;D=ROOT/'dist'
 c=json.loads((D/'catalog.json').read_text());tasks=c['tasks'];assert len(tasks)==40 and len({t['id'] for t in tasks})==40
 assert Counter(t['arm'] for t in tasks)=={'single':20,'dual':20}
@@ -15,7 +16,7 @@ for t in tasks:
  for key in ['image','video']:
   if t.get(key):
    if key=='video' and t[key].startswith('https:'):assert t[key].startswith('https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/')
-   else:assert (D/t[key]).is_file() and (D/t[key]).stat().st_size>0,(t['id'],key)
+   else:assert (D/urlsplit(t[key]).path).is_file() and (D/urlsplit(t[key]).path).stat().st_size>0,(t['id'],key)
  for key in ['drive','github']:
   if t.get(key):assert t[key].startswith('https://')
  if t['arm']=='single':
@@ -38,7 +39,7 @@ p=Parser();p.feed((D/'index.html').read_text());assert len(p.ids)==len(set(p.ids
 for link in p.links:
  if link.startswith('#') and len(link)>1:assert link[1:] in p.ids,link
 for asset in p.assets:
- if not asset.startswith(('https:','data:')):assert (D/asset).exists(),asset
+ if not asset.startswith(('https:','data:')):assert (D/urlsplit(asset).path).exists(),asset
 for f in D.glob('*'):
  if f.suffix in ['.html','.css','.js','.json']:
   text=f.read_text();assert not re.search(r'/(?:home|Users)/[^/]+/',text),str(f)
