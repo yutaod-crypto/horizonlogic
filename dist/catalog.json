@@ -56,14 +56,24 @@
       "actionSemantics": "osc_pose",
       "instruction": "Orient the battery so its terminals match the compartment, insert it fully, then place the lid to close the compartment.",
       "image": "assets/battery_orientation.jpg",
-      "video": "assets/battery_orientation.mp4",
-      "previewSpeed": 16,
+      "video": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/battery_orientation.mp4",
+      "previewSpeed": 1,
       "cameras": 3,
       "sourceEpisodes": 50,
       "trainingCheck": true,
       "drive": "https://drive.google.com/drive/folders/1GioZkEanF313RnC_P8Qk9cLOCvIbLmAu",
       "github": "https://github.com/yutaod-crypto/robodataSim-data/tree/main/data/01_conditional/single_arm/battery_orientation",
-      "publishedEpisodes": 50
+      "publishedEpisodes": 50,
+      "previewResolution": [
+        960,
+        720
+      ],
+      "multiViewVideo": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/battery_orientation-multiview.mp4",
+      "multiViewResolution": [
+        1920,
+        720
+      ],
+      "previewFps": 20
     },
     {
       "id": "delivery_box",
@@ -77,14 +87,24 @@
       "actionSemantics": "osc_pose",
       "instruction": "Pack the cup, jar, water bottle and spoon fully inside the delivery box, then close its lid.",
       "image": "assets/delivery_box.jpg",
-      "video": "assets/delivery_box.mp4",
-      "previewSpeed": 16,
+      "video": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/delivery_box.mp4",
+      "previewSpeed": 1,
       "cameras": 3,
       "sourceEpisodes": 50,
       "trainingCheck": true,
       "drive": "https://drive.google.com/drive/folders/1Bs3ExWXMCr4iBG82NMWgZZuOcfn4Ys_7",
       "github": "https://github.com/yutaod-crypto/robodataSim-data/tree/main/data/01_conditional/single_arm/delivery_box",
-      "publishedEpisodes": 50
+      "publishedEpisodes": 50,
+      "previewResolution": [
+        960,
+        720
+      ],
+      "multiViewVideo": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/delivery_box-multiview.mp4",
+      "multiViewResolution": [
+        1920,
+        720
+      ],
+      "previewFps": 20
     },
     {
       "id": "dishwasher",
@@ -98,14 +118,24 @@
       "actionSemantics": "osc_pose",
       "instruction": "Extend the dishwasher rack, load the two large containers in the lower rack and the small container on the upper shelf, then retract the rack and close the door.",
       "image": "assets/dishwasher.jpg",
-      "video": "assets/dishwasher.mp4",
-      "previewSpeed": 16,
+      "video": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/dishwasher.mp4",
+      "previewSpeed": 1,
       "cameras": 3,
       "sourceEpisodes": 50,
       "trainingCheck": true,
       "drive": "https://drive.google.com/drive/folders/1wyES8pJFNV8WoehmD5qm8aC7_XNNk7nY",
       "github": "https://github.com/yutaod-crypto/robodataSim-data/tree/main/data/01_conditional/single_arm/dishwasher",
-      "publishedEpisodes": 50
+      "publishedEpisodes": 50,
+      "previewResolution": [
+        960,
+        720
+      ],
+      "multiViewVideo": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/dishwasher-multiview.mp4",
+      "multiViewResolution": [
+        1920,
+        720
+      ],
+      "previewFps": 20
     },
     {
       "id": "filter_installation",
@@ -119,14 +149,24 @@
       "actionSemantics": "joint_position",
       "instruction": "Insert and turn the filter cartridge to lock it, install the prefilter and retaining collar, then close the cover.",
       "image": "assets/filter_installation.jpg",
-      "video": "assets/filter_installation.mp4",
-      "previewSpeed": 16,
+      "video": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/filter_installation.mp4",
+      "previewSpeed": 1,
       "cameras": 3,
       "sourceEpisodes": 50,
       "trainingCheck": true,
       "drive": "https://drive.google.com/drive/folders/12L5Xili9O_Hb8j7Hcv6epCEsSiWp8eMV",
       "github": "https://github.com/yutaod-crypto/robodataSim-data/tree/main/data/01_conditional/single_arm/filter_installation",
-      "publishedEpisodes": 50
+      "publishedEpisodes": 50,
+      "previewResolution": [
+        960,
+        720
+      ],
+      "multiViewVideo": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/filter_installation-multiview.mp4",
+      "multiViewResolution": [
+        1920,
+        720
+      ],
+      "previewFps": 20
     },
     {
       "id": "task7_breakfast_table",
@@ -336,14 +376,24 @@
       "actionSemantics": "joint_position",
       "instruction": "Remember where the milk, juice and yogurt belong. Clear the fridge, remove and wipe the shelf, then put the shelf and groceries back in their original places and close the drawer and door.",
       "image": "assets/fridge_memory.jpg",
-      "video": "assets/fridge_memory.mp4",
-      "previewSpeed": 16,
+      "video": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/fridge_memory.mp4",
+      "previewSpeed": 1,
       "cameras": 3,
       "sourceEpisodes": 50,
       "trainingCheck": true,
       "drive": null,
       "github": null,
-      "publishedEpisodes": 0
+      "publishedEpisodes": 0,
+      "previewResolution": [
+        960,
+        720
+      ],
+      "multiViewVideo": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/fridge_memory-multiview.mp4",
+      "multiViewResolution": [
+        1920,
+        720
+      ],
+      "previewFps": 20
     },
     {
       "id": "label_memory",
@@ -357,14 +407,24 @@
       "actionSemantics": "joint_position",
       "instruction": "Inspect and remember the colored labels on both packages. Turn their labels face down and stack the packages on the operating mat. Weigh each package and place it in the station matching its remembered label color.",
       "image": "assets/label_memory.jpg",
-      "video": "assets/label_memory.mp4",
-      "previewSpeed": 16,
+      "video": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/label_memory.mp4",
+      "previewSpeed": 1,
       "cameras": 3,
       "sourceEpisodes": 50,
       "trainingCheck": true,
       "drive": "https://drive.google.com/drive/folders/1OOWC7HUiqg98U3rFIaYhOxhBadxCiUX5",
       "github": null,
-      "publishedEpisodes": 0
+      "publishedEpisodes": 0,
+      "previewResolution": [
+        960,
+        720
+      ],
+      "multiViewVideo": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/label_memory-multiview.mp4",
+      "multiViewResolution": [
+        1920,
+        720
+      ],
+      "previewFps": 20
     },
     {
       "id": "mapping_memory",
@@ -378,14 +438,24 @@
       "actionSemantics": "joint_position",
       "instruction": "Store the two bread slices, meat and vegetable slice in separate drawers and remember their locations. Close all drawers. Then retrieve the ingredients without searching and assemble bread, both fillings in either order, and bread on the board.",
       "image": "assets/mapping_memory.jpg",
-      "video": "assets/mapping_memory.mp4",
-      "previewSpeed": 16,
+      "video": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/mapping_memory.mp4",
+      "previewSpeed": 1,
       "cameras": 3,
       "sourceEpisodes": 50,
       "trainingCheck": true,
       "drive": "https://drive.google.com/drive/folders/15w-4nLhmtGR-AlkuQw0SV9L2wlS1m0Cc",
       "github": null,
-      "publishedEpisodes": 0
+      "publishedEpisodes": 0,
+      "previewResolution": [
+        960,
+        720
+      ],
+      "multiViewVideo": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/mapping_memory-multiview.mp4",
+      "multiViewResolution": [
+        1920,
+        720
+      ],
+      "previewFps": 20
     },
     {
       "id": "purse_memory",
@@ -399,14 +469,24 @@
       "actionSemantics": "joint_position",
       "instruction": "Put the gold key fob into one purse and remember which purse you used. Close the purses and move them into the cabinet. Then open the purse containing the fob and place the fob in the silver tray without opening the other purses.",
       "image": "assets/purse_memory.jpg",
-      "video": "assets/purse_memory.mp4",
-      "previewSpeed": 16,
+      "video": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/purse_memory.mp4",
+      "previewSpeed": 1,
       "cameras": 3,
       "sourceEpisodes": 50,
       "trainingCheck": true,
       "drive": "https://drive.google.com/drive/folders/1Rurv4MYFfB65lmFKXzcGQrsOjac3gIW4",
       "github": null,
-      "publishedEpisodes": 0
+      "publishedEpisodes": 0,
+      "previewResolution": [
+        960,
+        720
+      ],
+      "multiViewVideo": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/purse_memory-multiview.mp4",
+      "multiViewResolution": [
+        1920,
+        720
+      ],
+      "previewFps": 20
     },
     {
       "id": "task16_batch_delivery",
@@ -616,14 +696,24 @@
       "actionSemantics": "joint_position",
       "instruction": "Inspect both pillars and the bridge connector. Remove the bridge first if it obstructs a pillar repair. Seat and align both pillars, then fit the bridge across both pillars, reusing the existing parts.",
       "image": "assets/connector_recovery.jpg",
-      "video": "assets/connector_recovery.mp4",
-      "previewSpeed": 16,
+      "video": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/connector_recovery.mp4",
+      "previewSpeed": 1,
       "cameras": 3,
       "sourceEpisodes": 50,
       "trainingCheck": true,
       "drive": "https://drive.google.com/drive/folders/1sTI-ARU9_hXBmCqD42oDJYLMDnWBAG7Q",
       "github": null,
-      "publishedEpisodes": 0
+      "publishedEpisodes": 0,
+      "previewResolution": [
+        960,
+        720
+      ],
+      "multiViewVideo": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/connector_recovery-multiview.mp4",
+      "multiViewResolution": [
+        1920,
+        720
+      ],
+      "previewFps": 20
     },
     {
       "id": "water_recovery",
@@ -637,14 +727,24 @@
       "actionSemantics": "joint_position",
       "instruction": "Prepare an upright cup on the mat. Right the existing cup if it is tipped or upside down; fetch the spare only if the cup is missing. Pour water into the prepared cup and return the bottle upright.",
       "image": "assets/water_recovery.jpg",
-      "video": "assets/water_recovery.mp4",
-      "previewSpeed": 16,
+      "video": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/water_recovery.mp4",
+      "previewSpeed": 1,
       "cameras": 3,
       "sourceEpisodes": 50,
       "trainingCheck": true,
       "drive": "https://drive.google.com/drive/folders/1YeZewLks-yrwW2chFhp9A-FmgVQRdHl5",
       "github": null,
-      "publishedEpisodes": 0
+      "publishedEpisodes": 0,
+      "previewResolution": [
+        960,
+        720
+      ],
+      "multiViewVideo": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/water_recovery-multiview.mp4",
+      "multiViewResolution": [
+        1920,
+        720
+      ],
+      "previewFps": 20
     },
     {
       "id": "lunchbox_cleanup",
@@ -658,14 +758,24 @@
       "actionSemantics": "joint_position",
       "instruction": "Inspect the lunchbox. Discard any leftovers in the trash can before wiping any stains with the sponge. Pack the milk carton, fruit, sandwich and snack into their matching compartments, then close the lunchbox.",
       "image": "assets/lunchbox_cleanup.jpg",
-      "video": "assets/lunchbox_cleanup.mp4",
-      "previewSpeed": 16,
+      "video": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/lunchbox_cleanup.mp4",
+      "previewSpeed": 1,
       "cameras": 3,
       "sourceEpisodes": 50,
       "trainingCheck": true,
       "drive": null,
       "github": null,
-      "publishedEpisodes": 0
+      "publishedEpisodes": 0,
+      "previewResolution": [
+        960,
+        720
+      ],
+      "multiViewVideo": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/lunchbox_cleanup-multiview.mp4",
+      "multiViewResolution": [
+        1920,
+        720
+      ],
+      "previewFps": 20
     },
     {
       "id": "table_setting",
@@ -679,14 +789,24 @@
       "actionSemantics": "joint_position",
       "instruction": "Place the white plate inside the boundary on the woven placemat, the blue cup in its cup area, and the spoon in its utensil area. Correct missing, tipped or misoriented items as needed, leaving correctly placed items in place.",
       "image": "assets/table_setting.jpg",
-      "video": "assets/table_setting.mp4",
-      "previewSpeed": 16,
+      "video": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/table_setting.mp4",
+      "previewSpeed": 1,
       "cameras": 3,
       "sourceEpisodes": 50,
       "trainingCheck": true,
       "drive": "https://drive.google.com/drive/folders/1N5GPKcgjjmjD9bFBc7qrHO8FT2dxcOYr",
       "github": null,
-      "publishedEpisodes": 0
+      "publishedEpisodes": 0,
+      "previewResolution": [
+        960,
+        720
+      ],
+      "multiViewVideo": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/table_setting-multiview.mp4",
+      "multiViewResolution": [
+        1920,
+        720
+      ],
+      "previewFps": 20
     },
     {
       "id": "task23_candy_packing",
@@ -896,14 +1016,24 @@
       "actionSemantics": "joint_position",
       "instruction": "Make two cups of boba milk tea from the shared limited ingredients. Add pearls first, then milk and tea in similar proportions. Inspect the cups and fill each approximately to its marked 75% level, reserving enough ingredients for both.",
       "image": "assets/boba_tea_allocation.jpg",
-      "video": "assets/boba_tea_allocation.mp4",
-      "previewSpeed": 16,
+      "video": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/boba_tea_allocation.mp4",
+      "previewSpeed": 1,
       "cameras": 3,
       "sourceEpisodes": 50,
       "trainingCheck": true,
       "drive": "https://drive.google.com/drive/folders/1JiVVR9zBL2idcgOiQmM8UjLYdz68Adla",
       "github": null,
-      "publishedEpisodes": 0
+      "publishedEpisodes": 0,
+      "previewResolution": [
+        960,
+        720
+      ],
+      "multiViewVideo": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/boba_tea_allocation-multiview.mp4",
+      "multiViewResolution": [
+        1920,
+        720
+      ],
+      "previewFps": 20
     },
     {
       "id": "flower_vase_allocation",
@@ -917,14 +1047,24 @@
       "actionSemantics": "joint_position",
       "instruction": "Pour water from the shared jug into both vases to approximately their marked levels. Distribute the available flowers between the vases according to their opening sizes, placing each stem inside and leaving both arrangements supported.",
       "image": "assets/flower_vase_allocation.jpg",
-      "video": "assets/flower_vase_allocation.mp4",
-      "previewSpeed": 16,
+      "video": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/flower_vase_allocation.mp4",
+      "previewSpeed": 1,
       "cameras": 3,
       "sourceEpisodes": 50,
       "trainingCheck": true,
       "drive": "https://drive.google.com/drive/folders/1e0KtRBI2TJohsf_zWjcbL2h6FCfxqmaq",
       "github": null,
-      "publishedEpisodes": 0
+      "publishedEpisodes": 0,
+      "previewResolution": [
+        960,
+        720
+      ],
+      "multiViewVideo": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/flower_vase_allocation-multiview.mp4",
+      "multiViewResolution": [
+        1920,
+        720
+      ],
+      "previewFps": 20
     },
     {
       "id": "pizza_allocation",
@@ -938,14 +1078,24 @@
       "actionSemantics": "joint_position",
       "instruction": "Pour the shared tomato sauce onto both pizza bases and spread it with the brush. Pour cheese onto both pizzas, allocating sauce and cheese in proportion to pizza size. Inspect the coverage and leave the tools and containers safely parked.",
       "image": "assets/pizza_allocation.jpg",
-      "video": "assets/pizza_allocation.mp4",
-      "previewSpeed": 16,
+      "video": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/pizza_allocation.mp4",
+      "previewSpeed": 1,
       "cameras": 3,
       "sourceEpisodes": 50,
       "trainingCheck": true,
       "drive": "https://drive.google.com/drive/folders/1YaFhsnk0n54B11jNXqH2PPM47fBlevcn",
       "github": null,
-      "publishedEpisodes": 0
+      "publishedEpisodes": 0,
+      "previewResolution": [
+        960,
+        720
+      ],
+      "multiViewVideo": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/pizza_allocation-multiview.mp4",
+      "multiViewResolution": [
+        1920,
+        720
+      ],
+      "previewFps": 20
     },
     {
       "id": "burger_allocation",
@@ -959,14 +1109,24 @@
       "actionSemantics": "joint_position",
       "instruction": "Make two sandwiches. Distribute the six ready-cut cucumber slices, meat and limited sauce in proportion to the bread sizes. Cut only the meat. Inspect the sauce and add matching bread tops.",
       "image": "assets/burger_allocation.jpg",
-      "video": "assets/burger_allocation.mp4",
-      "previewSpeed": 16,
+      "video": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/burger_allocation.mp4",
+      "previewSpeed": 1,
       "cameras": 3,
       "sourceEpisodes": 50,
       "trainingCheck": true,
       "drive": null,
       "github": null,
-      "publishedEpisodes": 0
+      "publishedEpisodes": 0,
+      "previewResolution": [
+        960,
+        720
+      ],
+      "multiViewVideo": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/burger_allocation-multiview.mp4",
+      "multiViewResolution": [
+        1920,
+        720
+      ],
+      "previewFps": 20
     },
     {
       "id": "task29_cake_decoration",
@@ -1176,14 +1336,24 @@
       "actionSemantics": "joint_position",
       "instruction": "Place the clear panel, picture facing the front, and backing into the frame. Close both retaining tabs, unfold the stand, then turn the frame upright.",
       "image": "assets/picture_frame_assembly.jpg",
-      "video": "assets/picture_frame_assembly.mp4",
-      "previewSpeed": 16,
+      "video": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/picture_frame_assembly.mp4",
+      "previewSpeed": 1,
       "cameras": 3,
       "sourceEpisodes": 50,
       "trainingCheck": true,
       "drive": "https://drive.google.com/drive/folders/18nlZPKDQuNj7--6cwyc4BYaKiJ2KMRu9",
       "github": null,
-      "publishedEpisodes": 0
+      "publishedEpisodes": 0,
+      "previewResolution": [
+        960,
+        720
+      ],
+      "multiViewVideo": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/picture_frame_assembly-multiview.mp4",
+      "multiViewResolution": [
+        1920,
+        720
+      ],
+      "previewFps": 20
     },
     {
       "id": "individual_packaging",
@@ -1197,14 +1367,24 @@
       "actionSemantics": "joint_position",
       "instruction": "Insert the loose foam pad into the long protective case first, then put the bottle on the pad and the jar into the octagonal case. Close both cases, place them inside the delivery box, then close its outer lid. Either case may be prepared first.",
       "image": "assets/individual_packaging.jpg",
-      "video": "assets/individual_packaging.mp4",
-      "previewSpeed": 16,
+      "video": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/individual_packaging.mp4",
+      "previewSpeed": 1,
       "cameras": 3,
       "sourceEpisodes": 50,
       "trainingCheck": true,
       "drive": "https://drive.google.com/drive/folders/1liIYLDDlitsIQ8GC-5F6r_Sxn4FKuNnW",
       "github": null,
-      "publishedEpisodes": 0
+      "publishedEpisodes": 0,
+      "previewResolution": [
+        960,
+        720
+      ],
+      "multiViewVideo": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/individual_packaging-multiview.mp4",
+      "multiViewResolution": [
+        1920,
+        720
+      ],
+      "previewFps": 20
     },
     {
       "id": "shelf_assembly",
@@ -1218,14 +1398,24 @@
       "actionSemantics": "joint_position",
       "instruction": "Assemble both side walls on the base, insert the middle shelf from behind, slide in the back panel, then fit the top.",
       "image": "assets/shelf_assembly.jpg",
-      "video": "assets/shelf_assembly.mp4",
-      "previewSpeed": 16,
+      "video": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/shelf_assembly.mp4",
+      "previewSpeed": 1,
       "cameras": 3,
       "sourceEpisodes": 50,
       "trainingCheck": true,
       "drive": "https://drive.google.com/drive/folders/1cqyhuweTioGg8no2rGov1ktq6w913OMS",
       "github": null,
-      "publishedEpisodes": 0
+      "publishedEpisodes": 0,
+      "previewResolution": [
+        960,
+        720
+      ],
+      "multiViewVideo": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/shelf_assembly-multiview.mp4",
+      "multiViewResolution": [
+        1920,
+        720
+      ],
+      "previewFps": 20
     },
     {
       "id": "bench_assembly",
@@ -1239,14 +1429,24 @@
       "actionSemantics": "joint_position",
       "instruction": "Turn the tabletop over to expose its underside clips. Insert both black leg frames, then turn the assembled table upright and place it in the green area.",
       "image": "assets/bench_assembly.jpg",
-      "video": "assets/bench_assembly.mp4",
-      "previewSpeed": 16,
+      "video": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/bench_assembly.mp4",
+      "previewSpeed": 1,
       "cameras": 3,
       "sourceEpisodes": 50,
       "trainingCheck": true,
       "drive": "https://drive.google.com/drive/folders/1p_2PPvI9TlS0isRAqs9mLmhOzAjpqQED",
       "github": null,
-      "publishedEpisodes": 0
+      "publishedEpisodes": 0,
+      "previewResolution": [
+        960,
+        720
+      ],
+      "multiViewVideo": "https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/bench_assembly-multiview.mp4",
+      "multiViewResolution": [
+        1920,
+        720
+      ],
+      "previewFps": 20
     },
     {
       "id": "task40_bento_packing",

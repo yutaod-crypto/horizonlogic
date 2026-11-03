@@ -13,9 +13,14 @@ assert sum(bool(t['video']) for t in tasks)==20
 for t in tasks:
  assert t['instruction'] and t['name'] and t['fps']>0
  for key in ['image','video']:
-  if t.get(key): assert (D/t[key]).is_file() and (D/t[key]).stat().st_size>0,(t['id'],key)
+  if t.get(key):
+   if key=='video' and t[key].startswith('https:'):assert t[key].startswith('https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/')
+   else:assert (D/t[key]).is_file() and (D/t[key]).stat().st_size>0,(t['id'],key)
  for key in ['drive','github']:
   if t.get(key):assert t[key].startswith('https://')
+ if t['arm']=='single':
+  assert t['previewSpeed']==1 and t['previewResolution']==[960,720] and t['multiViewResolution']==[1920,720] and t['previewFps']==20
+  assert t['multiViewVideo'].startswith('https://github.com/yutaod-crypto/horizonlogic/releases/download/review-v2-20261103/')
  if t['arm']=='dual':
   assert t['sourceEpisodes']==t['driveRecordEpisodes']==50
   assert t['publishedEpisodes']==(50 if t['category']=='01_conditional' else 1)
@@ -38,5 +43,5 @@ for f in D.glob('*'):
  if f.suffix in ['.html','.css','.js','.json']:
   text=f.read_text();assert not re.search(r'/(?:home|Users)/[^/]+/',text),str(f)
 assert not any(f.is_symlink() for f in D.rglob('*'))
-report={'passed':True,'tasks':40,'categories':5,'single_arm_tasks':20,'dual_arm_tasks':20,'canonical_single_arm_episodes':1000,'published_episodes':416,'dual_arm_drive_review_links':100,'verified_task_drive_links':37,'preview_videos':20,'static_assets_and_anchors_passed':True,'portable_relative_paths_passed':True,'total_static_bytes':sum(f.stat().st_size for f in D.rglob('*') if f.is_file())}
+report={'passed':True,'tasks':40,'categories':5,'single_arm_tasks':20,'dual_arm_tasks':20,'canonical_single_arm_episodes':1000,'published_episodes':416,'dual_arm_drive_review_links':100,'verified_task_drive_links':37,'preview_tasks':20,'preview_video_files':40,'main_resolution':[960,720],'multiview_resolution':[1920,720],'preview_fps':20,'preview_speed':1,'static_assets_and_anchors_passed':True,'portable_relative_paths_passed':True,'total_static_bytes':sum(f.stat().st_size for f in D.rglob('*') if f.is_file())}
 print(json.dumps(report,indent=2))
